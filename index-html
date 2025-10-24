@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Dulu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: blue;
+      color: #222;
+      padding: 20px;
+    }
+    .match {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .teams {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .score {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .scorers {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+    .team-scorers {
+      display: flex;
+      justify-content: space-between;
+    }
+    .left, .right {
+      width: 48%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="match">
+    <div class="teams">
+      <span>Chelsea</span>
+      <span class="score">2 - 1</span>
+      <span>Liverpool</span>
+    </div>
+    <div class="scorers">
+      <div class="team-scorers">
+        <div class="left">
+          Palmer 24'<br>
+          Estevão 68'
+        </div>
+        <div class="right" style="text-align: right;">
+          Gakpo 74'
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="match">
+    <div class="teams">
+      <span>Newcastle</span>
+      <span class="score">4 - 0</span>
+      <span>AS Roma</span>
+    </div>
+    <div class="scorers">
+      <div class="team-scorers">
+        <div class="left">
+          N. Voltemade 16'<br>
+          N. Voltemade 22'<br>
+          N. Voltemade 42'<br>
+          Own Goal 67'
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="match">
+    <div class="teams">
+      <span>Persis Solo</span>
+      <span class="score">2 - 0</span>
+      <span>World Classic</span>
+    </div>
+    <div class="scorers">
+      <div class="team-scorers">
+        <div class="left">
+          Arkhan Kaka 12'<br>
+          Kodai Tanaka 20'
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
